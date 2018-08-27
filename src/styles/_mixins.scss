@@ -1,0 +1,4 @@
+@mixin squereBox($dimention){
+  width: $dimention;
+  height: $dimention;
+}
