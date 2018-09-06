@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import variables from './../../config';
 
 class Header extends React.Component {
   render () {
@@ -9,8 +8,7 @@ class Header extends React.Component {
         <div className="row">
             <div className="logo">
               <Link to="/">
-                <img src={`${variables.path.assets}logo/logo.svg`} alt="Aertrip" />
-                <img src={`${variables.path.assets}logo/aertrip.svg`} alt="Aertrip" />
+                Logo
               </Link>
             </div>
             <nav>

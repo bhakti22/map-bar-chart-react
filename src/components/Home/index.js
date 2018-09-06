@@ -118,7 +118,7 @@ class Home extends React.Component {
             {(this.state.page.toLowerCase() === 'map') ?
               <Map {...this.props.map} data={this.state.rangeDataMap} />
               :
-              <div ref='barRoot'>
+              <div ref="barRoot">
                 <BarChartCustom {...this.state.chart} data={this.state.rangeDataChart} />
               </div>
             }
